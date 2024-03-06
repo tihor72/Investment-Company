@@ -1,0 +1,18 @@
+Project Prompt:
+
+Objective:
+Create a website for an investment company that showcases its services, highlights, and career opportunities.
+
+Requirements:
+1. Include a fixed navigation bar at the top of the page.
+2. Design a hero section with an engaging image and a call-to-action button.
+3. Provide sections for "About Us," "Investment Highlights," "Careers," and "Services."
+4. Style each section with borders or background colors for visual appeal.
+5. Ensure responsiveness across different devices.
+6. Implement a background animation resembling stars moving in space.
+
+Additional Instructions:
+- Ensure all images are properly sourced and optimized.
+- Use semantic HTML tags for better accessibility and SEO.
+- Validate your HTML and CSS code to ensure compliance with web standards.
+- Test the website thoroughly on different browsers and devices before submission.
