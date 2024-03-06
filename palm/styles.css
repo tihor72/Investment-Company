@@ -1,0 +1,240 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Resetting margin for body */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #cf98c9;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #eb54dc;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .header-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .header-content p {
+    font-size: 1.1em;
+  }
+  
+  /* Section styles */
+  .section {
+    padding: 50px 0;
+  }
+  
+  .hero {
+    position: relative;
+  }
+  
+  .hero img {
+    margin-top: -60px;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .hero-content h2 {
+    color: #fff; /* Change to white */
+  }
+  .hero-content p {
+    color: #fff; /* Change to white */
+  }
+  
+  .hero-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d88e2d;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #e9e8e1;
+  }
+  
+  .highlights {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .highlights h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .highlights ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .highlights ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  /* About, Careers, Services content styles */
+  .about-content,
+  .careers-content,
+  .services-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-content h2,
+  .careers-content h2,
+  .services-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p,
+  .careers-content p,
+  .services-content p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .about-content ul,
+  .careers-content ul,
+  .services-content ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .about-content ul li,
+  .careers-content ul li,
+  .services-content ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-content p {
+    margin-bottom: 0;
+  }
+  /* Apply hover effect to header when scrolling down */
+header:hover {
+    background-color: #555; /* Change to desired color */
+    transition: background-color 0.3s ease; /* Add smooth transition */
+  }
+  
+  /* Apply hover effect to navigation links when scrolling down */
+  nav ul li a:hover {
+    color: #ffcc00; /* Change to desired color */
+    transition: color 0.3s ease; /* Add smooth transition */
+  }
+/* Keep navigation fixed at the top */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other content */
+  background-color: #333;
+  padding: 10px 0;
+}
+
+/* Adjust content padding to accommodate fixed navigation */
+body {
+  padding-top: 50px; /* Adjust based on the height of your navigation */
+}  
+/* Style navigation items */
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  border: 1px solid #fff; /* Border style */
+  padding: 10px 20px; /* Padding to create space between text and borders */
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
